@@ -1,0 +1,246 @@
+/************** Skin 1 *********************/
+.dd1 {
+	/*display:inline-block !important;*/
+	text-align:left;
+	background:none;
+	font-size:12px;
+	float:left;
+}
+.dd1 .ddTitle {
+	background:transparent url(../images/forms/dd_bg_blue.png) no-repeat;
+	padding:0 3px;
+	text-indent:0;
+	cursor:default;
+	overflow:hidden;
+	height:33px;
+}
+.dd1 .ddTitle span.arrow {
+/*	background:transparent url(../images/forms/icon-arrow.png) no-repeat 0 0; float:right; display:inline-block;width:27px; height:27px; cursor:pointer; top:13px; position:relative; right:-6px;
+*/	
+background:transparent no-repeat 0 0; float:right; display:inline-block;width:27px; height:27px; cursor:pointer; top:13px; position:relative; right:-6px;
+}
+
+.dd1 .ddTitle span.ddTitleText {text-indent:1px; overflow:hidden; line-height:33px; font-family:Tahoma, Geneva, sans-serif; font-size:11px; font-weight:normal; color:#fff; _position:relative; _top:4px; margin-left:5px}
+.dd1 .ddTitle span.ddTitleText img{text-align:left; padding:0 2px 0 0;}
+.dd1 .ddTitle img.selected {
+	padding:0 2px 0 0;
+	vertical-align:top;
+}
+.dd1 .ddChild {
+	position:absolute;
+	border:1px solid #c3c3c3;
+	border-top:none;
+	display:none;
+	margin:0;
+	width:auto;
+	overflow:auto;
+	overflow-x:hidden !important;
+	background-color:#ffffff;
+	font-size:11px;
+}
+.dd1 .ddChild .opta a, .dd2 .ddChild .opta a:visited {padding-left:10px}
+.dd1 .ddChild a {
+	display:block;
+	padding:3px 0 3px 5px;
+	text-decoration:none;
+	color:#000;
+	overflow:hidden;
+	white-space:nowrap;
+	cursor:pointer;
+}
+.dd1 .ddChild a:hover {
+	background-color:#2e82ff;
+	color:#FFFFFF;
+}
+.dd1 .ddChild a img {
+	border:0;
+	padding:0 2px 0 0;
+	vertical-align:middle;
+}
+.dd1 .ddChild a.selected {
+	background-color:#2e82ff;	
+	color:#FFFFFF;
+}
+
+.dd1 .borderTop{border-top:1px solid #c3c3c3  !important;}
+.dd1 .noBorderTop{border-top:none 0  !important}
+
+/************** Skin 2 *********************/
+.dd2 {
+	/*display:inline-block !important;*/
+	text-align:left;
+	background:none;
+	font-size:12px;
+	float:left;
+}
+.dd2 .ddTitle {
+	background:transparent url(../images/forms/dd_bg_orange.png) no-repeat;
+	padding:0 3px;
+	text-indent:0;
+	cursor:default;
+	overflow:hidden;
+	height:33px;
+}
+.dd2 .ddTitle span.arrow {
+/*	background:transparent url(../images/forms/icon-arrow.png) no-repeat 0 0; float:right; display:inline-block;width:27px; height:27px; cursor:pointer; top:13px; position:relative; right:-6px;
+*/	background:transparent no-repeat 0 0; float:right; display:inline-block;width:27px; height:27px; cursor:pointer; top:13px; position:relative; right:-6px;
+}
+
+.dd2 .ddTitle span.ddTitleText {text-indent:1px; overflow:hidden; line-height:33px; font-family:Tahoma, Geneva, sans-serif; font-size:11px; font-weight:normal; color:#fff; _position:relative; _top:4px; margin-left:5px}
+.dd2 .ddTitle span.ddTitleText img{text-align:left; padding:0 2px 0 0;}
+.dd2 .ddTitle img.selected {
+	padding:0 2px 0 0;
+	vertical-align:top;
+}
+.dd2 .ddChild {
+	position:absolute;
+	border:1px solid #c3c3c3;
+	border-top:none;
+	display:none;
+	margin:0;
+	width:auto;
+	overflow:auto;
+	overflow-x:hidden !important;
+	background-color:#ffffff;
+	font-size:11px;
+}
+.dd2 .ddChild .opta a, .dd2 .ddChild .opta a:visited {padding-left:10px}
+.dd2 .ddChild a {
+	display:block;
+	padding:3px 0 3px 3px;
+	text-decoration:none;
+	color:#000;
+	overflow:hidden;
+	white-space:nowrap;
+	cursor:pointer;
+}
+.dd2 .ddChild a:hover {
+	background-color:#2e82ff;
+	color:#FFFFFF;
+}
+.dd2 .ddChild a img {
+	border:0;
+	padding:0 2px 0 0;
+	vertical-align:middle;
+}
+.dd2 .ddChild a.selected {
+	background-color:#2e82ff;	
+	color:#FFFFFF;
+}
+
+.dd2 .borderTop{border-top:1px solid #c3c3c3  !important;}
+.dd2 .noBorderTop{border-top:none 0  !important}
+
+
+/************** Skin 3 *********************/
+.dd3 {
+	/*display:inline-block !important;*/
+	text-align:left;
+	background:none;
+	font-size:12px;
+	float:left;
+}
+.dd3 .ddTitle {
+	background:transparent url(../images/forms/dd_bg_orange_1.png) no-repeat;
+	padding:0 3px;
+	text-indent:0;
+	cursor:default;
+	overflow:hidden;
+	height:33px;
+}
+.dd3 .ddTitle span.arrow {
+/*	background:transparent url(../images/forms/icon-arrow.png) no-repeat 0 0; float:right; display:inline-block;width:27px; height:27px; cursor:pointer; top:13px; position:relative; right:-6px;
+*/	background:transparent no-repeat 0 0; float:right; display:inline-block;width:27px; height:27px; cursor:pointer; top:13px; position:relative; right:-6px;
+}
+
+.dd3 .ddTitle span.ddTitleText {text-indent:1px; overflow:hidden; line-height:33px; font-family:Tahoma, Geneva, sans-serif; font-size:11px; font-weight:normal; color:#fff; _position:relative; _top:4px; margin-left:5px}
+.dd3 .ddTitle span.ddTitleText img{text-align:left; padding:0 2px 0 0;}
+.dd3 .ddTitle img.selected {
+	padding:0 2px 0 0;
+	vertical-align:top;
+}
+.dd3 .ddChild {
+	position:absolute;
+	border:1px solid #c3c3c3;
+	border-top:none;
+	display:none;
+	margin:0;
+	width:auto;
+	overflow:auto;
+	overflow-x:hidden !important;
+	background-color:#ffffff;
+	font-size:11px;
+}
+.dd3 .ddChild .opta a, .dd3 .ddChild .opta a:visited {padding-left:10px}
+.dd3 .ddChild a {
+	display:block;
+	padding:3px 0 3px 3px;
+	text-decoration:none;
+	color:#000;
+	overflow:hidden;
+	white-space:nowrap;
+	cursor:pointer;
+}
+.dd3 .ddChild a:hover {
+	background-color:#2e82ff;
+}
+.dd3 .ddChild a img {
+	border:0;
+	padding:0 2px 0 0;
+	vertical-align:middle;
+}
+.dd3 .ddChild a.selected {
+	background-color:#2e82ff;	
+}
+
+.dd3 .borderTop{border-top:1px solid #c3c3c3  !important;}
+.dd3 .noBorderTop{border-top:none 0  !important}
+
+
+
+
+
+
+
+/************* use sprite *****************/
+.dd .ddChild a.sprite, .dd .ddChild a.sprite:visited {
+	background-image:url(../icons/sprite.gif);
+	background-repeat:no-repeat;
+	padding-left:24px;
+}
+
+.dd .ddChild a.calendar, .dd .ddChild a.calendar:visited {
+	background-position:0 -404px;
+}
+.dd .ddChild a.shoppingcart, .dd .ddChild a.shoppingcart:visited {
+	background-position:0 -330px;
+}
+.dd .ddChild a.cd, .dd .ddChild a.cd:visited {
+	background-position:0 -439px;
+}
+.dd .ddChild a.email, .dd .ddChild a.email:visited {
+	background-position:0 -256px;
+}
+.dd .ddChild a.faq, .dd .ddChild a.faq:visited {
+	background-position:0 -183px;
+}
+.dd .ddChild a.games,
+.dd .ddChild a.games:visited {
+	background-position:0 -365px;
+}
+.dd .ddChild a.music, .dd .ddChild a.music:visited {
+	background-position:0 -146px;
+}
+.dd .ddChild a.phone, .dd .ddChild a.phone:visited {
+	background-position:0 -109px;
+}
+.dd .ddChild a.graph, .dd .ddChild a.graph:visited {
+	background-position:0 -73px;
+}
+.dd .ddChild a.secured, .dd .ddChild a.secured:visited {
+	background-position:0 -37px;
+}
+.dd .ddChild a.video, .dd .ddChild a.video:visited {
+	background-position:0 0;
+}
+/*******************************/

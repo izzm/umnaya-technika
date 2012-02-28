@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+	root element for the scrollable.
+	when scrolling occurs this element stays still.
+*/
+.scrollable {
+
+	/* required settings */
+	position:relative;
+	overflow:visible;
+	width: 1035px;
+	height:440px;
+}
+
+/*
+	root element for scrollable items. Must be absolutely positioned
+	and it should have a extremely large width to accommodate scrollable items.
+	it's enough that you set width and height for the root element and
+	not for this element.
+*/
+.scrollable .items {
+	/* this cannot be too large */
+	width:20000em;
+	position:absolute;
+}
+
+/*
+	a single item. must be floated in horizontal scrolling.
+	typically, this element is the one that *you* will style
+	the most.
+*/
+.items div {
+	float:left;
+}
+
+
+
+/* this makes it possible to add next button beside scrollable */
+.scrollable {
+	float:left;	
+}
+
+/* prev, next, prevPage and nextPage buttons */
+a.browse {
+	background:url(../images/hori_large.png) no-repeat;
+	position:absolute;
+	display:block;
+	width:38px;
+	height:38px;
+	float:left;
+	margin:40px 10px;
+	cursor:pointer;
+	font-size:1px;
+}
+
+/* right */
+a.right 				{ background-position: 0 -38px; clear:right}
+a.right:hover 		{ background-position:-38px -38px; }
+a.right:active 	{ background-position:-76px -38px; } 
+
+
+/* left */
+a.left				{ margin-left: 0px; } 
+a.left:hover  		{ background-position:-38px 0; }
+a.left:active  	{ background-position:-76px 0; }
+
+/* up and down */
+a.up, a.down		{ 
+	background:url(../images/hori_large.png) no-repeat; 
+	float: none;
+	margin: 10px 50px;
+}
+
+/* up */
+a.up:hover  		{ background-position:-38px 0; }
+a.up:active  		{ background-position:-76px 0; }
+
+/* down */
+a.down 				{ background-position: 0 -38px; }
+a.down:hover  		{ background-position:-38px -38px; }
+a.down:active  	{ background-position:-76px -38px; } 
+
+
+/* disabled navigational button */
+a.disabled {
+	visibility:hidden !important;		
+} 	
+
