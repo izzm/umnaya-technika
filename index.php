@@ -22,7 +22,6 @@ $app = Application::getInstance()->initialize();
 
 $url = urldecode($_SERVER['REQUEST_URI']);
 
-
 try {
     $found_route = $app->getRouter()->findRoute($url);
     $app->getDispatcher()->dispatch( $found_route );

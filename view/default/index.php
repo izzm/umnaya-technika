@@ -8,7 +8,7 @@
       <div style="margin-top:34px; font-size:9px">
         <a href="">Забыли пароль?</a>&nbsp;|&nbsp;
         <a class="formlink" rel="registration" href="#">Регистрация</a>&nbsp;|&nbsp;
-        <a href="">Обратная связь</a>
+        <a class="formlink" rel="feedback" href="#">Обратная связь</a>
       </div>
       
       <a href="#" id="loginButton">
@@ -22,4 +22,12 @@
 
 <script id="registrationTemplate" type="text/x-jquery-tmpl">
   <?php $this->renderAction(array('controller' => 'registration', 'action' => 'form')); ?>
+</script>
+
+<script id="feedbackTemplate" type="text/x-jquery-tmpl">
+  <?php $this->renderAction(array('controller' => 'feedback', 'action' => 'unsigned')); ?>
+</script>
+
+<script id="rulesTemplate" type="text/x-jquery-tmpl">
+  <?php $this->renderAction(array('controller' => 'site', 'action' => 'rules')); ?>
 </script>

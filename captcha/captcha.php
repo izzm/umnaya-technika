@@ -46,6 +46,8 @@
  
   $_SESSION['captcha'] = implode('', $cod);
  
-  header("Content-type: image/gif"); 
+  header("Content-type: image/gif");
+  header('Cache-Control: no-cache, must-revalidate');
+  header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
   imagegif($src);
 ?>

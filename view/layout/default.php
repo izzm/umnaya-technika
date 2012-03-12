@@ -14,6 +14,7 @@
   <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
   <script type="text/javascript" src="/js/jquery.tmpl.min.js"></script>
   <script type="text/javascript" src="http://cdn.jquerytools.org/1.2.6/tiny/jquery.tools.min.js"></script>
+  <script type="text/javascript" src="/js/jquery.tools.navigator.min.js"></script>
 
   <script type="text/javascript" src="/js/jquery-ui-1.8.17.custom.min.js"></script>
   <script type="text/javascript" src="/js/jquery.ui.datepicker-ru.js"></script>
@@ -39,7 +40,7 @@
 <div class="container">
   <div class="header">
   	<img src="/images/logo.gif" width="165" height="70" />
-    <a href="">
+    <a href="#" class="formlink" rel="register">
       <img class="rollover" src="/images/salesreg_button.png" width="221" height="44" style="position:absolute; left:594px; top:26px" />
     </a>
     <div id="userinfo">
@@ -51,6 +52,7 @@
       НАЧИСЛЕНО БАЛЛОВ: <strong><?php echo $user_data['points'] ?></strong><br />
       АКТИВНО БАЛЛОВ:<strong><?php echo $user_data['active_points'] ?></strong>
     </div>
+  </div>
   <div class="content"> 
     <?php echo $this->renderAction(); ?>
 <!--      <div id="fader" ></div>
@@ -59,17 +61,20 @@
    
   <div class="footer">
     <div id="bottom_menu">
-      <a href="">
-        <img class="rollover" src="/images/menu/b_1.gif" width="77" height="33" />
+      <a href="<?php echo $this->router->getUrl('main'); ?>">
+        <img class="rollover" src="/images/menu/b_1.gif" width="68" height="33" />
+      </a>
+      <a href="#" class="formlink" rel="cabinet">
+        <img class="rollover" src="/images/menu/b_2.gif" width="120" height="33" />
       </a>
       <a href="">
-        <img class="rollover" src="/images/menu/b_2.gif" width="140" height="33" />
+        <img class="rollover" src="/images/menu/b_3.gif" width="115" height="33" />
       </a>
       <a href="">
-        <img class="rollover" src="/images/menu/b_3.gif" width="143" height="33" />
+        <img class="rollover" src="/images/menu/b_4.gif" width="118" height="33" />
       </a>
-      <a href="">
-        <img class="rollover" src="/images/menu/b_4.gif" width="130" height="33" />
+      <a href="#" class="formlink" rel="rules" data-show-before="true">
+        <img class="rollover" src="/images/menu/b_5.gif" width="71" height="33" />
       </a>
     </div>
   </div>

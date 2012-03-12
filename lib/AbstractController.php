@@ -5,12 +5,14 @@
     public $layout;
     
     private $viewPath;
-    private $conext;
+    private $context;
+    private $logger;
     private $params;
 
     public function __construct($context, $p) {
-      $this->content = $context;
+      $this->context = $context;
       $this->layout = $this->getLayout();
+      $this->logger = Application::getInstance()->getLogger();
       
       foreach($p as $name => $value) {
         $this->$name = $value;
@@ -54,7 +56,13 @@
     protected function renderJSON($data) {
       header('Cache-Control: no-cache, must-revalidate');
       header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
-      header('Content-type: application/json');
+      header('Vary: Accept');
+      if (isset($_SERVER['HTTP_ACCEPT']) &&
+          (strpos($_SERVER['HTTP_ACCEPT'], 'application/json') !== false)) {
+          header('Content-type: application/json');
+      } else {
+          header('Content-type: text/plain');
+      }
       
       echo json_encode($data);
       

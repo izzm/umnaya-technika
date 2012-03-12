@@ -10,9 +10,11 @@
     private $responseRootName;
     
     private $writer; //XML writer
+    private $logger;
     
     public function __construct() {
       $this->writer = new XMLWriter();
+      $this->logger = Application::getInstance()->getLogger();
     }
     
     public function configure($p) {
@@ -27,6 +29,8 @@
       $xmlRequest = $this->toXml($data);
       $xmlResponse = $this->post($xmlRequest);
       
+      $this->logger->logDebug("Request: " . $xmlRequest);
+      $this->logger->logDebug("Response: " . $xmlResponse);
       //var_dump($xmlRequest);
       //var_dump($xmlResponse);
       //exit();

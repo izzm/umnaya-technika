@@ -48,6 +48,8 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	height:440px;
 	top:283px;
 	left:373px;
+	width:300px;
+	overflow:visible;
 	padding: 0;
 }
 

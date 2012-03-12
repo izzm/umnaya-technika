@@ -2,6 +2,7 @@
   class Application {
     private static $instance;
     
+    private $logger;
     private $router;
     private $dipatcher;
     private $api_connector;
@@ -18,12 +19,18 @@
     }
     
     public function initialize() {
+      $this->initializeLogger();
+    
       $this->initializeRouter();
       $this->initializeDispathcer();
       $this->initializeApiConnector();
       $this->initializeFlash();
       
       return $this;
+    }
+    
+    private function initializeLogger() {
+      $this->logger = new KLogger($this->rootPath() . '/log/', KLogger::DEBUG);
     }
     
     private function initializeRouter() {
@@ -58,6 +65,10 @@
           $_SESSION['flash'][$key]['ttl'] += 1;
         }
       }
+    }
+    
+    public function getLogger() {
+      return $this->logger;
     }
     
     public function getRouter() {

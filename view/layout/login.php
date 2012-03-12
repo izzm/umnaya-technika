@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="/css/intro.css" type="text/css" media="screen">
 <link rel="stylesheet" href="/css/forms.css" type="text/css" media="screen">
 <link rel="stylesheet" href="/css/dd.css" type="text/css" media="screen">
+<link rel="stylesheet" href="/css/jquery.jscrollpane.css" type="text/css" media="screen">
 <link rel="stylesheet" href="/css/jquery-ui-1.8.17.custom.css" type="text/css" media="screen">
 
 <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
@@ -16,6 +17,8 @@
 <script type="text/javascript" src="/js/custom-form-elements.js"></script>
 <script type="text/javascript" src="/js/jquery.dd.js"></script>
 <script type="text/javascript" src="/js/jquery.form.js"></script>
+<script type="text/javascript" src="/js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="/js/jquery.jscrollpane.min.js"></script>
 
 <script type="text/javascript" src="/js/forms.js"></script>
 <script type="text/javascript" src="/js/login.js"></script>
@@ -37,12 +40,14 @@
 </div>
 <div class="container">
   <?php echo $this->renderAction(); ?>
+
+  <?php if($this->hasFlash('error')): ?>
+    <div  class="alert" style="display:block"><?php echo $this->getFlash('error') ?></div>
+    <div  class="alert" style="background:url(images/alert_4bg.png) no-repeat; width:340px; height:102px; display:none">Логин и пароль введены неверно</div>
+  <?php endif; ?>
+
 <!-- end .container -->
 </div>
-<?php if($this->hasFlash('error')): ?>
-  <div  class="alert" style="display:block"><?php echo $this->getFlash('error') ?></div>
-  <div  class="alert" style="background:url(images/alert_4bg.png) no-repeat; width:340px; height:102px; display:none">Логин и пароль введены неверно</div>
-<?php endif; ?>
 
 <script type="text/javascript">
   var _gaq = _gaq || [];

@@ -1,0 +1,247 @@
+2012-03-07 5:00:34 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Карабан</surname><name>Ксения</name><patronymic>Витальевна</patronymic><birthday>1989-04-11</birthday><sex>f</sex><msisdn>79247540090</msisdn><email>kseniya_karaban@mail.ru</email><id_outlet>681</id_outlet><category/></params></request> 
+2012-03-07 5:00:34 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><category>1</category>
+</fields></response> 
+2012-03-07 5:04:47 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Карабан</surname><name>Ксения</name><patronymic>Витальевна</patronymic><birthday>1989-04-11</birthday><sex>f</sex><msisdn>79247540090</msisdn><email>kseniya_karaban@mail.ru</email><id_outlet>681</id_outlet><category/></params></request> 
+2012-03-07 5:04:47 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><category>1</category>
+</fields></response> 
+2012-03-07 6:38:57 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Карабан</surname><name>Ксения</name><patronymic>Витальевна</patronymic><birthday>1989-04-11</birthday><sex>f</sex><msisdn>79247540090</msisdn><email>kseniya_karaban@mail.ru</email><id_outlet>681</id_outlet><category/></params></request> 
+2012-03-07 6:38:57 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><category>1</category>
+</fields></response> 
+2012-03-07 6:40:17 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Проверка</surname><name>Проверка</name><patronymic>Проверка</patronymic><birthday>1983-03-18</birthday><sex>m</sex><msisdn/><email>odsif@lkjd.ru</email><id_outlet>681</id_outlet><category/></params></request> 
+2012-03-07 6:40:17 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><msisdn>1</msisdn><category>1</category></fields></response> 
+2012-03-07 6:40:40 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Проверка</surname><name>Проверка</name><patronymic>Проверка</patronymic><birthday>1983-03-18</birthday><sex>m</sex><msisdn/><email>odsif@lkjd.ru</email><id_outlet>681</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></params></request> 
+2012-03-07 6:40:40 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><msisdn>1</msisdn>
+</fields></response> 
+2012-03-07 6:41:08 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Проверка</surname><name>Проверка</name><patronymic>Проверка</patronymic><birthday>1983-03-18</birthday><sex>m</sex><msisdn/><email>odsif@lkjd.ru</email><id_outlet>681</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></params></request> 
+2012-03-07 6:41:08 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><msisdn>1</msisdn>
+</fields></response> 
+2012-03-07 7:12:28 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Коновской</surname><name>Сергей</name><patronymic>Владимирович</patronymic><birthday>1973-07-29</birthday><sex>m</sex><msisdn>79135691835</msisdn><email>konovskoy@mail.ru</email><id_outlet>467</id_outlet><category/></params></request> 
+2012-03-07 7:12:28 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><category>1</category>
+</fields></response> 
+2012-03-07 7:12:58 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Коновской</surname><name>Сергей</name><patronymic>Владимирович</patronymic><birthday>1973-07-29</birthday><sex>m</sex><msisdn>79135691835</msisdn><email>konovskoy@mail.ru</email><id_outlet>467</id_outlet><category/></params></request> 
+2012-03-07 7:12:58 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><category>1</category>
+</fields></response> 
+2012-03-07 7:14:06 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Коновской</surname><name>Сергей</name><patronymic>Владимирович</patronymic><birthday>1973-07-29</birthday><sex>m</sex><msisdn>79135691835</msisdn><email>konovskoy@mail.ru</email><id_outlet>467</id_outlet><category><id_category>1</id_category></category></params></request> 
+2012-03-07 7:14:06 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-07 7:29:26 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79881783239</msisdn><password>PkJROmmA</password></params></request> 
+2012-03-07 7:29:26 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Захаров</surname><name>Евгений</name><patronymic>ВЛАДИМИРОВИЧ</patronymic><sex>m</sex><birthday>1987-02-08</birthday><msisdn>79881783239</msisdn><email>3axxxapoff@mail.ru</email><id_outlet>269</id_outlet><category><id_category>2</id_category><id_category>3</id_category><id_category>5</id_category><id_category>6</id_category><id_category>1</id_category><id_category>4</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-07 7:56:03 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Крылов</surname><name>Иван</name><patronymic>Сергеевич</patronymic><birthday>1988-03-22</birthday><sex>m</sex><msisdn>79504367160</msisdn><email>shuller88@inbox.ru</email><id_outlet>467</id_outlet><category/></params></request> 
+2012-03-07 7:56:03 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><category>1</category>
+</fields></response> 
+2012-03-07 7:56:26 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Крылов</surname><name>Иван</name><patronymic>Сергеевич</patronymic><birthday>1988-03-22</birthday><sex>m</sex><msisdn>79504367160</msisdn><email>shuller88@inbox.ru</email><id_outlet>467</id_outlet><category><id_category>1</id_category></category></params></request> 
+2012-03-07 7:56:26 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-07 7:57:04 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_email_activate</action><params><ukey>rpucKaKlxytMBGFQHITqFYjosGYkxDVNjXHsyVHTstntd</ukey></params></request> 
+2012-03-07 7:57:04 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-07 7:57:33 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79504367160</msisdn><password>YiZoAWiF</password></params></request> 
+2012-03-07 7:57:33 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Крылов</surname><name>Иван</name><patronymic>Сергеевич</patronymic><sex>m</sex><birthday>1988-03-22</birthday><msisdn>79504367160</msisdn><email>shuller88@inbox.ru</email><id_outlet>467</id_outlet><category><id_category>1</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-07 8:11:49 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79275715011</msisdn><password>ekukxbAA</password></params></request> 
+2012-03-07 8:11:49 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Типаков</surname><name>Алексей</name><patronymic>Павлович</patronymic><sex>m</sex><birthday>1989-04-28</birthday><msisdn>79275715011</msisdn><email>tipok89@mail.ru</email><id_outlet>269</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-07 8:12:24 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79275715011</msisdn><password>ekukxbAA</password></params></request> 
+2012-03-07 8:12:24 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-07 8:13:55 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>send_question</action><params><msisdn>79275715011</msisdn><email>tipok89@mail.ru</email><password>ekukxbAA</password><id_question>1</id_question><message></message><file><name></name><data></data></file></params></request> 
+2012-03-07 8:13:55 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>4</result></response> 
+2012-03-07 9:14:52 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Шарапов</surname><name>Илья</name><patronymic>Сергеевич</patronymic><birthday>1988-04-27</birthday><sex>m</sex><msisdn>79174801914</msisdn><email>sharap1988@mail.ru</email><id_outlet>431</id_outlet><category><id_category>1</id_category></category></params></request> 
+2012-03-07 9:14:52 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-07 9:19:44 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79174801914</msisdn><password>vFjqerPi</password></params></request> 
+2012-03-07 9:19:44 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>4</result></response> 
+2012-03-07 9:28:19 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Паньков</surname><name>Виктор</name><patronymic>Викторович</patronymic><birthday>1982-12-15</birthday><sex>m</sex><msisdn>79064583000</msisdn><email>pankov_82@bk.ru mail.ru</email><id_outlet>269</id_outlet><category><id_category>1</id_category><id_category>3</id_category><id_category>5</id_category><id_category>6</id_category><id_category>2</id_category></category></params></request> 
+2012-03-07 9:28:19 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><email>1</email>
+</fields></response> 
+2012-03-07 9:28:23 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_email_activate</action><params><ukey>ksiiMzaRiXonxaissHfzXnibIQnEwwFoEkXCOzhkxwfUj</ukey></params></request> 
+2012-03-07 9:28:23 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-07 9:29:02 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79130430511</msisdn><password>wUqGviqZ</password></params></request> 
+2012-03-07 9:29:02 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Куприенко</surname><name>Василий</name><patronymic>Юрьевич</patronymic><sex>m</sex><birthday>1984-10-30</birthday><msisdn>79130430511</msisdn><email>kuprienko.v@samsung.com</email><id_outlet>467</id_outlet><category><id_category>1</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-07 9:29:11 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79130430511</msisdn><password>wUqGviqZ</password></params></request> 
+2012-03-07 9:29:11 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-07 9:30:16 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79174801914</msisdn><password>vFjqerPi</password></params></request> 
+2012-03-07 9:30:16 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Шарапов</surname><name>Илья</name><patronymic>Сергеевич</patronymic><sex>m</sex><birthday>1988-04-27</birthday><msisdn>79174801914</msisdn><email>sharap1988@mail.ru</email><id_outlet>431</id_outlet><category><id_category>1</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-07 9:30:28 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Pankov</surname><name>Victor</name><patronymic>Victorovish</patronymic><birthday>1982-12-15</birthday><sex>m</sex><msisdn>79064583000</msisdn><email>pankov_82@bk.ru mail.ru</email><id_outlet>269</id_outlet><category><id_category>1</id_category><id_category>3</id_category><id_category>5</id_category><id_category>6</id_category><id_category>2</id_category></category></params></request> 
+2012-03-07 9:30:28 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><surname>1</surname><name>1</name><patronymic>1</patronymic><email>1</email></fields></response> 
+2012-03-07 9:33:31 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Pankov</surname><name>Victor</name><patronymic>Victorovish</patronymic><birthday>1982-12-15</birthday><sex>m</sex><msisdn>79064583000</msisdn><email>pankov_82@bk.ru mail.ru</email><id_outlet>269</id_outlet><category><id_category>1</id_category><id_category>3</id_category><id_category>5</id_category><id_category>6</id_category><id_category>2</id_category><id_category>4</id_category></category></params></request> 
+2012-03-07 9:33:31 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><surname>1</surname><name>1</name><patronymic>1</patronymic><email>1</email></fields></response> 
+2012-03-07 9:36:04 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>latest_news</action><params><msisdn>79174801914</msisdn><password>vFjqerPi</password></params></request> 
+2012-03-07 9:36:04 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><news><item><id_news>1</id_news><dt_news>1 марта 2012</dt_news><short_news>Спешим порадовать Вас новой программой SAMSUNG! Теперь Вы сможете зарабатывать бонусные баллы и заказывать на них подарки</short_news></item></news></response> 
+2012-03-07 9:37:10 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79270791532</msisdn><password>TYSMWHrM</password></params></request> 
+2012-03-07 9:37:10 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-07 9:37:39 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79270791532</msisdn><password>TYSMHWrM</password></params></request> 
+2012-03-07 9:37:39 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Чирков</surname><name>Павел</name><patronymic>Александрович</patronymic><sex>m</sex><birthday>1986-04-19</birthday><msisdn>79270791532</msisdn><email>pavel.chirkov.86@mail.ru</email><id_outlet>269</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-07 10:20:01 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79372413848</msisdn><password> jEwibaCW</password></params></request> 
+2012-03-07 10:20:01 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>мыльников</surname><name>максим</name><patronymic>юрьевич</patronymic><sex>m</sex><birthday>1982-01-16</birthday><msisdn>79372413848</msisdn><email>maksim-sr@mail.ru</email><id_outlet>246</id_outlet><category><id_category>1</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-07 10:21:54 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79372413848</msisdn><password> jEwibaCW</password></params></request> 
+2012-03-07 10:21:54 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-07 10:35:57 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 10:35:57 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 10:38:48 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Паньков</surname><name>Виктор</name><patronymic>Викторович</patronymic><birthday>1982-12-15</birthday><sex>m</sex><msisdn>79064583000</msisdn><email>pankov_82@bk.ru mail.ru</email><id_outlet>269</id_outlet><category/></params></request> 
+2012-03-07 10:38:48 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><email>1</email><category>1</category></fields></response> 
+2012-03-07 10:39:14 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Паньков</surname><name>Виктор</name><patronymic>Викторович</patronymic><birthday>1982-12-15</birthday><sex>m</sex><msisdn>79064583000</msisdn><email>pankov_82@bk.ru mail.ru</email><id_outlet>269</id_outlet><category><id_category>5</id_category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>6</id_category></category></params></request> 
+2012-03-07 10:39:14 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><email>1</email>
+</fields></response> 
+2012-03-07 10:39:44 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Паньков</surname><name>Виктор</name><patronymic>Викторович</patronymic><birthday>1982-12-15</birthday><sex>m</sex><msisdn>79064583000</msisdn><email>pankov_82@bk.ru mail.ru</email><id_outlet>269</id_outlet><category><id_category>5</id_category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>6</id_category></category></params></request> 
+2012-03-07 10:39:44 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><email>1</email>
+</fields></response> 
+2012-03-07 10:40:23 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Pankov</surname><name>Victor</name><patronymic>Victorovish</patronymic><birthday>1982-12-15</birthday><sex>m</sex><msisdn>79064583000</msisdn><email>pankov_82@bk.ru mail.ru</email><id_outlet>269</id_outlet><category><id_category>5</id_category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>6</id_category></category></params></request> 
+2012-03-07 10:40:23 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><surname>1</surname><name>1</name><patronymic>1</patronymic><email>1</email></fields></response> 
+2012-03-07 10:40:49 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79064583000</msisdn><password></password></params></request> 
+2012-03-07 10:40:49 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>2</result></response> 
+2012-03-07 13:02:13 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79272855988</msisdn><password>jrcfyf123</password></params></request> 
+2012-03-07 13:02:13 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-07 13:02:52 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79272855988</msisdn><password>SfZSatA</password></params></request> 
+2012-03-07 13:02:52 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-07 13:03:30 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79272855988</msisdn><password>SfZSKatA</password></params></request> 
+2012-03-07 13:03:30 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Балмуханова</surname><name>Оксана</name><patronymic>Джумагалиевна</patronymic><sex>m</sex><birthday>1988-01-27</birthday><msisdn>79272855988</msisdn><email>ksens007@mail.ru</email><id_outlet>256</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-07 13:03:34 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79272855988</msisdn><password>SfZSKatA</password></params></request> 
+2012-03-07 13:03:34 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-07 13:45:24 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Антонов</surname><name>Дмитрий </name><patronymic>Валерьевич</patronymic><birthday>1987-07-10</birthday><sex>m</sex><msisdn>79213566230</msisdn><email>89213566230@mail.ru</email><id_outlet></id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>4</id_category><id_category>5</id_category><id_category>3</id_category><id_category>6</id_category></category></params></request> 
+2012-03-07 13:45:24 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><id_outlet>1</id_outlet><id_outlet>2</id_outlet></fields></response> 
+2012-03-07 13:47:14 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 13:47:14 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 13:47:14 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 13:47:14 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 13:47:18 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 13:47:18 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 13:47:19 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 13:47:19 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 13:47:20 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 13:47:20 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 13:47:21 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 13:47:21 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 13:47:22 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 13:47:22 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 13:47:22 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 13:47:22 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 13:47:24 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 13:47:24 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 13:47:24 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 13:47:24 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 13:47:24 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 13:47:24 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 13:47:25 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 13:47:25 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 13:47:25 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-07 13:47:25 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-07 15:33:34 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79127596199</msisdn><password>jVbBULto</password></params></request> 
+2012-03-07 15:33:34 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-07 15:34:14 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79127596199</msisdn><password>lVbBULto</password></params></request> 
+2012-03-07 15:34:14 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-07 15:34:33 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79127596199</msisdn><password>lVbBULto</password></params></request> 
+2012-03-07 15:34:33 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-07 15:35:55 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79127596199</msisdn><password>JvBbulTO</password></params></request> 
+2012-03-07 15:35:55 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Щербаков</surname><name>Дмитрий</name><patronymic>Витальевич</patronymic><sex>m</sex><birthday>1982-11-12</birthday><msisdn>79127596199</msisdn><email>dmitry_52@mail.ru</email><id_outlet>57</id_outlet><category><id_category>2</id_category><id_category>1</id_category><id_category>6</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-07 15:36:08 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79127596199</msisdn><password>JvBbulTO</password></params></request> 
+2012-03-07 15:36:08 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-07 16:00:54 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Улан</surname><name>Игорь</name><patronymic>Григорьевич</patronymic><birthday>1976-04-12</birthday><sex>m</sex><msisdn>79213180816</msisdn><email>garic1204@rambler.ru</email><id_outlet></id_outlet><category><id_category>1</id_category><id_category>3</id_category><id_category>5</id_category><id_category>4</id_category></category></params></request> 
+2012-03-07 16:00:54 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><id_outlet>1</id_outlet><id_outlet>2</id_outlet></fields></response> 
+2012-03-07 18:01:09 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>send_question_no_auth</action><params><name>Игорь</name><email>garic1204@rambler.ru</email><msisdn>79213180816</msisdn><id_question>3</id_question><message>Подскажите, сегодня приезжал ваш представитель предложил зарегистрироваться на сайте.При регистрации не нашёл своего магазина.Компания ПРЕМЬЕР ТЕХНО </message><file><name/><data></data></file></params></request> 
+2012-03-07 18:01:09 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-07 18:28:42 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79247557339</msisdn><password>MtquCvec</password></params></request> 
+2012-03-07 18:28:42 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Саргаев</surname><name>Саян</name><patronymic>Вячеславович</patronymic><sex>m</sex><birthday>1988-12-10</birthday><msisdn>79247557339</msisdn><email>lifestealer08@rambler.ru</email><id_outlet>681</id_outlet><category><id_category>2</id_category><id_category>1</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-07 18:37:53 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79247557339</msisdn><password>MtquCvec</password></params></request> 
+2012-03-07 18:37:53 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-07 18:40:10 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>latest_news</action><params><msisdn>79247557339</msisdn><password>MtquCvec</password></params></request> 
+2012-03-07 18:40:10 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><news><item><id_news>1</id_news><dt_news>1 марта 2012</dt_news><short_news>Спешим порадовать Вас новой программой SAMSUNG! Теперь Вы сможете зарабатывать бонусные баллы и заказывать на них подарки</short_news></item></news></response> 
+2012-03-07 18:40:24 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>latest_news</action><params><msisdn>79247557339</msisdn><password>MtquCvec</password></params></request> 
+2012-03-07 18:40:24 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><news><item><id_news>1</id_news><dt_news>1 марта 2012</dt_news><short_news>Спешим порадовать Вас новой программой SAMSUNG! Теперь Вы сможете зарабатывать бонусные баллы и заказывать на них подарки</short_news></item></news></response> 
+2012-03-07 18:40:26 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>news</action><params><msisdn>79247557339</msisdn><password>MtquCvec</password><id_news>1</id_news></params></request> 
+2012-03-07 18:40:26 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><news><id_news>1</id_news><dt_news>1 марта 2012</dt_news><short_news>Спешим порадовать Вас новой программой SAMSUNG! Теперь Вы сможете зарабатывать бонусные баллы и заказывать на них подарки</short_news><text_news>&lt;p&gt;Спешим порадовать Вас новой программой SAMSUNG! Теперь Вы сможете зарабатывать бонусные баллы и заказывать на них подарки: &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;призы&lt;/strong&gt; из нашего каталога;&lt;/li&gt;
+&lt;li&gt;подарочные карты &lt;strong&gt;Л’этуаль&lt;/strong&gt; или Спортмастер;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;деньги на мобильный телефон!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Что нужно делать? Всё очень просто! Регистрируйте продажи тех моделей холодильников SAMSUNG, которые включены в программу, участвуйте в дополнительных активностях на сайте, копите баллы и получайте заслуженные призы в течение всей акции!&lt;/p&gt;
+
+&lt;p&gt;Список моделей*, участвующих в программе:&lt;/p&gt;
+
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;margin:5px auto 5px auto; width:400px; border-collapse:collapse&quot;&gt;
+&lt;tr&gt;&lt;td align = &quot;center&quot;&gt;RL50RECIH1/BWT&lt;/td&gt;&lt;td align = &quot;center&quot;&gt;20 баллов&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align = &quot;center&quot;&gt;RL50RQERS1/BWT&lt;/td&gt;&lt;td align = &quot;center&quot;&gt;23 баллов&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align = &quot;center&quot;&gt;RL55VEBVB1/BWT&lt;/td&gt;&lt;td align = &quot;center&quot;&gt;23 баллов&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align = &quot;center&quot;&gt;RL55VQBRS1/BWT&lt;/td&gt;&lt;td align = &quot;center&quot;&gt;35 баллов&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align = &quot;center&quot;&gt;RL55VTEBG1/BWT&lt;/td&gt;&lt;td align = &quot;center&quot;&gt;33 баллов&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align = &quot;center&quot;&gt;RL58GEGVB1/BWT&lt;/td&gt;&lt;td align = &quot;center&quot;&gt;20 баллов&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align = &quot;center&quot;&gt;RL60GJERS1/BWT&lt;/td&gt;&lt;td align = &quot;center&quot;&gt;28 баллов&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align = &quot;center&quot;&gt;RS21HKLMR1/BWT&lt;/td&gt;&lt;td align = &quot;center&quot;&gt;50 баллов&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align = &quot;center&quot;&gt;RSG5FURS1/BWT&lt;/td&gt;&lt;td align = &quot;center&quot;&gt;57 баллов&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;*с полным списком Вы можете ознакомиться в &lt;a href =&quot;http://umnaya-technika.ru/#rules&quot;&gt;Правилах программы.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Сроки проведения – с 27 февраля по 27 апреля 2012 года.&lt;/p&gt;
+
+&lt;p&gt;Всем участникам желаем хорошего настроения и побольше удачных продаж!&lt;/p&gt;</text_news></news></response> 
+2012-03-07 18:44:12 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>latest_news</action><params><msisdn>79247557339</msisdn><password>MtquCvec</password></params></request> 
+2012-03-07 18:44:12 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><news><item><id_news>1</id_news><dt_news>1 марта 2012</dt_news><short_news>Спешим порадовать Вас новой программой SAMSUNG! Теперь Вы сможете зарабатывать бонусные баллы и заказывать на них подарки</short_news></item></news></response> 
+2012-03-07 18:57:36 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_email_activate</action><params><ukey>luPcKSLQrhGhUqjVDHKUKsQlxIbMmzcAZMZaEBVhwOqMu</ukey></params></request> 
+2012-03-07 18:57:36 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-07 22:20:23 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79061773067</msisdn><password>McfHsVYC</password></params></request> 
+2012-03-07 22:20:23 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Акопов</surname><name>Андрей</name><patronymic>Владимирович</patronymic><sex>m</sex><birthday>1984-06-26</birthday><msisdn>79061773067</msisdn><email>andreyakopov84@mail.ru</email><id_outlet>269</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 

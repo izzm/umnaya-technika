@@ -20,50 +20,23 @@ $(function() {
 	  return false;
 	});
 	
+	if(window.location.hash == "#rules") {
+	  $('#modal_box').css('background-image', 'url(/images/popup_bg.png)');
+    $('#modal_content').html('');
+    $('#rulesTemplate').tmpl().appendTo('#modal_content');
+    
+    $("#closeButton").hide();
+    
+    showModal();
+    rulesFormInit();
+	}
+	
   $("a.formlink").click(function(event){
     $('#modal_box').css('background-image', 'url(images/popup_bg.png)');
     $('#modal_content').html('');
     $('#' + $(this).attr('rel') + 'Template').tmpl().appendTo('#modal_content');
     
-    //init pretty form
-    handleForm();
-  	handleDropbox([{id:"cityInput", style:"dd2"}, 
-  	               {id:"regionInput", style:"dd2"}, 
-  	               {id:"addressInput", style:"dd2"},
-  	               {id:"outletNameInput", style:"dd2"},
-  	               {id:"categoryInput", style:"dd3"}]);
-    Custom.init();
-    
-    //init datepicker
-    $("#datepicker").datepicker({changeYear: true,yearRange: '1932:1995'});
-    $('#datepicker_container').click(function(){
-	    $( "#datepicker" ).datepicker('show');
-    });
-    
-    //init captcha
-    $('#captcha_image').attr('src', '/captcha/captcha.php');
-    
-    //init outlets
-    outletsInput();
-    
-    //init form
-    registrationFormInit();
-    
-    //init add button
-    $('#add_button').click(function() {
-      var category_id = $('#categoryInput').val();
-      var $category_option = $('#categoryInput').find('option[value="'+category_id+'"]');
-      var category = $category_option.html();
-      var input = '<input type="hidden" name="id_category[]" value="' + category_id + '">';
-      
-      if(category_id != '') {
-        $('#selected_categories').append(category + ' ' + input);
-      
-        $category_option.remove();
-        handleDropbox([{id:"categoryInput", style:"dd3"}]);
-      }
-      return false;
-    });
+    eval($(this).attr('rel') + 'FormInit();');
 
     showModal(); 
     
@@ -71,7 +44,73 @@ $(function() {
   });  
 });
 
+function feedbackFormInit() {
+  handleForm();
+  handleDropbox([{id:"themeInput", style:"dd3"}]);
+  
+  //init form
+  $('#feedback_form').ajaxForm({
+    dataType:  'json',
+    success: function(data) {
+      $('#useralert').html(data.result_message).show();
+    }
+  });
+}
+
+function rulesFormInit() {
+  var pane = $('.scroll-pane').jScrollPane({animateScroll: true});
+  var api = pane.data('jsp');
+
+  $('#upBtn').bind(
+		'click',
+		function()
+		{
+			api.scrollBy(0, parseInt(-100));
+			return false;
+		}
+	);
+  $('#downBtn').bind(
+		'click',
+		function()
+		{
+			api.scrollBy(0, parseInt(100));
+			return false;
+		}
+	);
+
+}
+
 function registrationFormInit() {
+  //init pretty form
+  handleForm();
+	handleDropbox([{id:"cityInput", style:"dd2"}, 
+	               {id:"regionInput", style:"dd2"}, 
+	               {id:"addressInput", style:"dd2"},
+	               {id:"outletNameInput", style:"dd2"},
+	               {id:"categoryInput", style:"dd3"}]);
+  Custom.init();
+  
+  //init datepicker
+  $("#datepicker").datepicker({
+    changeYear: true,
+    changeMonth: true,
+    yearRange: '1932:c'
+  });
+  $('#datepicker_container').click(function(){
+    $( "#datepicker" ).datepicker('show');
+  });
+  
+  //init captcha
+  $('#captcha_image').attr('src', '/captcha/captcha.php');
+  $('#refreshCaptcha').click(function() {
+    $('#captcha_image').attr('src', '/captcha/captcha.php?' + Math.random());
+    return false;
+  });
+  
+  //init outlets
+  outletsInput();
+  
+  //init form
   $('#registration_form').ajaxForm({
     dataType:  'json',
     success: function(data) {
@@ -79,6 +118,22 @@ function registrationFormInit() {
       $('#captcha_input').clearFields();
       $('#useralert').html(data.result_message).show();
     }
+  });
+  
+  //init add button
+  $('#add_button').click(function() {
+    var category_id = $('#categoryInput').val();
+    var $category_option = $('#categoryInput').find('option[value="'+category_id+'"]');
+    var category = $category_option.html();
+    var input = '<input type="hidden" name="id_category[]" value="' + category_id + '">';
+    
+    if(category_id != '') {
+      $('#selected_categories').append(category + ' ' + input);
+    
+      $category_option.remove();
+      handleDropbox([{id:"categoryInput", style:"dd3"}]);
+    }
+    return false;
   });
 }
 
@@ -136,10 +191,12 @@ function outletsInput() {
   
   $outlet_name.change(function() {
     address_options = default_address_options;
+    //alert($outlet_name.val());
     
     $.each(window.outlets[$city.val()][$region.val()][$outlet_name.val()], function(n, a) {
       address_options += '<option value="'+ a +'" title="">' + n + '</option>';
     });
+    
     $address.html(address_options);
     
     handleDropbox([{id:"addressInput", style:"dd2"}]);

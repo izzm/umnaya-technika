@@ -14,8 +14,12 @@ body {
 	color: #2e82ff;
 }
 ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
-	padding: 0;
+	padding: 0 0 0 15px;
 	margin: 0;
+	color:#555555;
+}
+li {
+	list-style-image:url(../images/forms/li.png);
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
@@ -24,6 +28,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 h2{
 	font-size:14px;
+	color:#0945a6;
 }
 p{
 	color:#555555;
@@ -87,8 +92,14 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	height:15px;
 	margin:2px 0 0 15px;
 }
-
-
+#info{
+	position:absolute;
+	background:url(../images/forms/info_bg.png) no-repeat;
+	top:400px;
+	width:711px;
+	height:124px;
+	padding:77px 30px 0 40px;
+}
 .content {
 	position:relative;
 	height:440px;
@@ -98,7 +109,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 /* ~~ The footer ~~ */
 .footer {
 	position:relative;
-	top:29px;
+	top:0;
 	height:130px;
 	background:url(../images/footer.gif) no-repeat;
 	padding: 0;
@@ -139,24 +150,56 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 }
 
 #fader {
-	background:url(../images/fader.png);
+	background:url(../images/fader_l.png);
 	top:0px;
+	left:-1034px;
 	position:absolute;
-	width:1035px;
+	width:1034px;
 	height:440px;
 	display:block;
 	overflow:hidden;
 }
 
 .modalScrollItem{
-	width:711px;
+	width:671px;
 	display:block;
-	padding:0 0 40px 40px;
+	padding:0px 20px 00px 20px;
 }
+
 .lcTextBlock{
 	width:390px;
 	margin:0 0 0 23px;
 }
+
+div .pointContainer{
+	position:absolute;
+	height:39px;
+	width:41px;
+	overflow:visible;
+}
+div .pointToolTipContainer{
+	position:absolute;
+	left:15px;
+	height:39px;
+	width:210px;
+	overflow:hidden;
+}
+div .pointToolTip{
+	position:absolute;
+	top:6px;
+	left:-210px;	
+	background:url(../images/menu/p1.png);
+	height:32px;
+	width:210px;
+}
+div .point{
+	position:absolute;
+	width:41px;
+	height:39px;
+	background:url(../images/point.png) no-repeat;
+}
+
+
 
 
 /* ~~ miscellaneous float/clear classes ~~ */

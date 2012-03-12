@@ -36,5 +36,40 @@
     protected function api_request($action, $params) {
       return self::st_api_request($action, $params);
     }
+    
+    protected static function fileBase64($name) {
+      $filename = $_FILES[$name]['tmp_name'];
+      if(file_exists($filename)) {
+        $filedata = fread(fopen($filename, "r"), filesize($filename));
+        $encdata = base64_encode($filedata);
+      } else {
+        $encdata = "";
+      }
+      
+      return array(
+        'name' => $_FILES[$name]['name'],
+        'data' => $encdata
+      );
+    }
+    
+    protected static function getPhoneNumber($phone, $city = false) {
+	    $fphone = preg_replace('/[^\\d]/', '', $phone);
+	    if (strlen($fphone) == 11) {
+		    if ($fphone[0] == '8') {
+			    $fphone[0] = '7';
+		    } elseif ($fphone[0] != '7') {
+			    return null;
+		    }
+		    return $fphone;
+	    } elseif (strlen($fphone) == 10) {
+		    return '7'.$fphone;	
+	    } elseif(strlen($fphone) == 12) {
+		    return $fphone;	
+	    } elseif(strlen($fphone) == 7 && $city) {
+		    //var_dump($fphone);
+		    return '7495'.$fphone;
+	    }
+	    return null;
+    }
   }
 ?>

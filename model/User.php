@@ -6,7 +6,7 @@
                               
     public static $messages = array(
       'results' => array(
-        0 => 'Участник успешно зарегистрирован',
+        0 => 'Вы успешно зарегистрированы! Письмо для подтверждения регистрации отправлено на Ваш электронный адрес',
         1 => 'Номер телефона уже зарегистрирован в акции',
         2 => 'Email уже зарегистрирован в акции',
         3 => 'Не все поля заполнены',
@@ -21,7 +21,7 @@
       ),
       'login' => array(
         0 => 'Вы успешно вошли',
-        1 => 'Некорректный формат номера телефона',
+        1 => 'Номер вашего мобильного телефона необходимо<br /> вводить в следующем формате: 89001234567',
         2 => 'Участник с таким номером не зарегистрирован',
         3 => 'Неверный пароль',
         4 => 'Email не активирован'
@@ -105,6 +105,7 @@
         }
         $user_data['points'] = 0+$res->points;
         $user_data['active_points'] = 0+$res->active_points;
+        $user_data['password'] = $params['password'];
         
         $_SESSION['user'] = new User($user_data);
       }
@@ -117,26 +118,6 @@
       $_SESSION['msisdn'] = null;
       
       return true;
-    }
-    
-    private static function getPhoneNumber($phone, $city = false) {
-	    $fphone = preg_replace('/[^\\d]/', '', $phone);
-	    if (strlen($fphone) == 11) {
-		    if ($fphone[0] == '8') {
-			    $fphone[0] = '7';
-		    } elseif ($fphone[0] != '7') {
-			    return null;
-		    }
-		    return $fphone;
-	    } elseif (strlen($fphone) == 10) {
-		    return '7'.$fphone;	
-	    } elseif(strlen($fphone) == 12) {
-		    return $fphone;	
-	    } elseif(strlen($fphone) == 7 && $city) {
-		    //var_dump($fphone);
-		    return '7495'.$fphone;
-	    }
-	    return null;
     }
     
     private function attachMessages($result) {

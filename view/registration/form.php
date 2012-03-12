@@ -48,13 +48,13 @@
     </div>
     
     <div style="position:absolute; left:217px; top:86px;">
-      <select name="id_outlet" id="outletNameInput" style="width:205px; height:33px">
+      <select id="outletNameInput" style="width:205px; height:33px">
         <option value="" title="" disabled="disabled" selected="selected">НАЗВАНИЕ МАГАЗИНА</option>
       </select>
     </div>
     
     <div style="position:absolute; left:217px; top:125px;">
-      <select id="addressInput" style="width:205px; height:33px">
+      <select name="id_outlet" id="addressInput" style="width:205px; height:33px">
         <option value="" title="" disabled="disabled" selected="selected" style="display:none">АДРЕС МАГАЗИНА</option>
       </select>
     </div>
@@ -93,10 +93,16 @@
       <input name="captcha" type="text" style="width:210px" title="Введите текст с картинки" value="Введите текст с картинки" id="captcha_input">
     </div>
     
-    <div style="position:absolute; left:130px; top:237px">
+    <div style="position:absolute; left:135px; top:237px">
+    	<div style="padding:4px 0 0 0; color:#9d9d9d; width:200px">
+    	  <a href="#" id="refreshCaptcha">обновить картинку</a>
+    	</div>
+  	</div>
+  	
+  	<div style="position:absolute; left:465px; top:198px">
     	<input name="rules_accept" type="checkbox" class="styled" />
     	<div style="padding:4px 0 0 0; color:#9d9d9d; width:200px">
-    	  Я согласен(а) с <a href="">правилами</a>
+    	  Я согласен(а) с <a href="/#rules" target="_blank">правилами</a>
     	</div>
   	</div>
     <input name="" type="image" src="/images/forms/register_btn.png" style="position:absolute; left:467px; top:232px"/>

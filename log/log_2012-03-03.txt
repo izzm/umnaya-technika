@@ -1,0 +1,338 @@
+2012-03-03 0:03:24 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Дятлов</surname><name>Александр</name><patronymic>Викторович</patronymic><birthday>1981-02-04</birthday><sex>m</sex><msisdn>79200544718</msisdn><email>qwerytu1981@gmail.com</email><id_outlet>163</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category><id_category>null</id_category></category></params></request> 
+2012-03-03 0:03:24 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 0:04:54 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Дятлов</surname><name>Александр</name><patronymic>Викторович</patronymic><birthday>1981-02-04</birthday><sex>m</sex><msisdn>79200213804</msisdn><email>qwerytu1981@gmail.com</email><id_outlet>163</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category><id_category>null</id_category></category></params></request> 
+2012-03-03 0:04:54 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>2</result></response> 
+2012-03-03 0:05:43 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_email_activate</action><params><ukey>djoXCGoTMruTzSnJoGrrLFybWQSTokqDOCZERSYwlYlwG</ukey></params></request> 
+2012-03-03 0:05:43 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-03 0:05:46 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79108811948</msisdn><password>ogsarARo</password></params></request> 
+2012-03-03 0:05:46 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 0:06:05 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79108811948</msisdn><password>ogsarARo</password></params></request> 
+2012-03-03 0:06:05 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 0:06:45 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79200544718</msisdn><password>MNzPrKTY</password></params></request> 
+2012-03-03 0:06:45 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Дятлов</surname><name>Александр</name><patronymic>Викторович</patronymic><sex>m</sex><birthday>1981-02-04</birthday><msisdn>79200544718</msisdn><email>qwerytu1981@gmail.com</email><id_outlet>163</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 0:10:52 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79200544718</msisdn><password>MNzPrKTY</password></params></request> 
+2012-03-03 0:10:52 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Дятлов</surname><name>Александр</name><patronymic>Викторович</patronymic><sex>m</sex><birthday>1981-02-04</birthday><msisdn>79200544718</msisdn><email>qwerytu1981@gmail.com</email><id_outlet>163</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 0:11:06 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79200544718</msisdn><password>MNzPrKTY</password></params></request> 
+2012-03-03 0:11:06 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 0:11:53 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79200544718</msisdn><password>MNzPrKTY</password></params></request> 
+2012-03-03 0:11:53 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 0:18:09 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Линеев</surname><name>Андрей</name><patronymic>Сергеевич</patronymic><birthday>1987-06-27</birthday><sex>m</sex><msisdn>79375907037</msisdn><email>Lineew@mail.ru</email><id_outlet>100</id_outlet><category/></params></request> 
+2012-03-03 0:18:09 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><category>1</category>
+</fields></response> 
+2012-03-03 0:18:41 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Линеев</surname><name>Андрей</name><patronymic>Сергеевич</patronymic><birthday>1987-06-27</birthday><sex>m</sex><msisdn>79375907037</msisdn><email>Lineew@mail.ru</email><id_outlet>100</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></params></request> 
+2012-03-03 0:18:41 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-03 0:19:52 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79375907037</msisdn><password>YQrSicdt</password></params></request> 
+2012-03-03 0:19:52 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>4</result></response> 
+2012-03-03 0:20:12 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79375907037</msisdn><password></password></params></request> 
+2012-03-03 0:20:12 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 0:20:44 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79375907037</msisdn><password>YQrSicdt</password></params></request> 
+2012-03-03 0:20:44 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>4</result></response> 
+2012-03-03 0:21:32 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79375907037</msisdn><password>YQrSicdt</password></params></request> 
+2012-03-03 0:21:32 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>4</result></response> 
+2012-03-03 0:22:50 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79375907037</msisdn><password></password></params></request> 
+2012-03-03 0:22:50 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 0:24:52 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_email_activate</action><params><ukey>NqiRAqPWaVKMWItQrPEtRYfYljEZdvucaCQEfWyllZakM</ukey></params></request> 
+2012-03-03 0:24:52 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-03 0:25:25 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79375907037</msisdn><password>YQrSicdt</password></params></request> 
+2012-03-03 0:25:25 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Линеев</surname><name>Андрей</name><patronymic>Сергеевич</patronymic><sex>m</sex><birthday>1987-06-27</birthday><msisdn>79375907037</msisdn><email>Lineew@mail.ru</email><id_outlet>100</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 0:25:39 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79375907037</msisdn><password>YQrSicdt</password></params></request> 
+2012-03-03 0:25:39 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 0:26:26 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79375907037</msisdn><password>YQrSicdt</password></params></request> 
+2012-03-03 0:26:26 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 0:27:17 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79375907037</msisdn><password>YQrSicdt</password></params></request> 
+2012-03-03 0:27:17 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 1:58:58 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79247557339</msisdn><password>MtquCvec</password></params></request> 
+2012-03-03 1:58:58 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Саргаев</surname><name>Саян</name><patronymic>Вячеславович</patronymic><sex>m</sex><birthday>1988-12-10</birthday><msisdn>79247557339</msisdn><email>lifestealer08@rambler.ru</email><id_outlet>681</id_outlet><category><id_category>2</id_category><id_category>1</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 2:03:59 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79247557339</msisdn><password>MtquCvec</password></params></request> 
+2012-03-03 2:03:59 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 3:33:36 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_email_activate</action><params><ukey>hDlCLmUnniTMvVvOwlnmTiGDrVftQpBPtoSwYrLfbXmCI</ukey></params></request> 
+2012-03-03 3:33:36 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>2</result></response> 
+2012-03-03 3:33:58 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79246566523</msisdn><password>yWpBYaQk</password></params></request> 
+2012-03-03 3:33:58 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Колесников</surname><name>Андрей</name><patronymic>Олегович</patronymic><sex>m</sex><birthday>1988-07-20</birthday><msisdn>79246566523</msisdn><email>qwin11550@mail.ru</email><id_outlet>683</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>5</id_category><id_category>4</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 3:35:03 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79246566523</msisdn><password>yWpBYaQk</password></params></request> 
+2012-03-03 3:35:03 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 7:32:38 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79881783239</msisdn><password>PkJROmmA</password></params></request> 
+2012-03-03 7:32:38 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Захаров</surname><name>Евгений</name><patronymic>ВЛАДИМИРОВИЧ</patronymic><sex>m</sex><birthday>1987-02-08</birthday><msisdn>79881783239</msisdn><email>3axxxapoff@mail.ru</email><id_outlet>269</id_outlet><category><id_category>2</id_category><id_category>3</id_category><id_category>5</id_category><id_category>6</id_category><id_category>1</id_category><id_category>4</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 7:32:45 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79881783239</msisdn><password>PkJROmmA</password></params></request> 
+2012-03-03 7:32:45 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 8:29:17 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>send_question_no_auth</action><params><name>Роман</name><email>misterdell@yandex.ru</email><msisdn>79873804629</msisdn><id_question>2</id_question><message>Здравствуйте, подскажите будет ли в акции участвовать цифровая техника и мобильные телефоны? </message></params></request> 
+2012-03-03 8:29:17 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-03 9:57:17 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79375907037</msisdn><password>270687</password></params></request> 
+2012-03-03 9:57:17 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 11:12:44 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Савельев</surname><name>Евгений</name><patronymic>Константинович</patronymic><birthday>1986-02-10</birthday><sex>m</sex><msisdn>79107702003</msisdn><email>domovoi-pro@yandex.ru</email><id_outlet>737</id_outlet><category><id_category>2</id_category><id_category>1</id_category><id_category>5</id_category><id_category>6</id_category></category></params></request> 
+2012-03-03 11:12:44 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-03 11:18:00 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79107702003</msisdn><password>Kwct0gpg</password></params></request> 
+2012-03-03 11:18:00 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 11:18:25 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79107702003</msisdn><password>Kwct0gpg</password></params></request> 
+2012-03-03 11:18:25 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 11:19:00 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79107702003</msisdn><password>Kwct0gpg</password></params></request> 
+2012-03-03 11:19:00 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 11:19:15 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79107702003</msisdn><password>KwctOgpg</password></params></request> 
+2012-03-03 11:19:15 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>4</result></response> 
+2012-03-03 11:41:58 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79877007878</msisdn><password>AplfreMp</password></params></request> 
+2012-03-03 11:41:58 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Лаптев</surname><name>Игорь</name><patronymic>Вячеславович</patronymic><sex>m</sex><birthday>1980-08-15</birthday><msisdn>79877007878</msisdn><email>igor_12rus@mail.ru</email><id_outlet>408</id_outlet><category><id_category>5</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 11:42:24 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79877007878</msisdn><password>AplfreMp</password></params></request> 
+2012-03-03 11:42:24 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 11:42:34 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79877007878</msisdn><password>AplfreMp</password></params></request> 
+2012-03-03 11:42:34 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 11:42:51 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79877007878</msisdn><password>AplfreMp</password></params></request> 
+2012-03-03 11:42:51 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 11:53:06 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_email_activate</action><params><ukey>pKCuJYtWkBSAWrVrIaMcKVewtQUPYfDrlfJxBLlhQprNI</ukey></params></request> 
+2012-03-03 11:53:06 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-03 11:53:37 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79107702003</msisdn><password>kwctOgpg</password></params></request> 
+2012-03-03 11:53:37 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 11:54:01 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79107702003</msisdn><password>KwctOpgp</password></params></request> 
+2012-03-03 11:54:01 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 11:58:23 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79107702003</msisdn><password>KwctOgpg</password></params></request> 
+2012-03-03 11:58:23 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Савельев</surname><name>Евгений</name><patronymic>Константинович</patronymic><sex>m</sex><birthday>1986-02-10</birthday><msisdn>79107702003</msisdn><email>domovoi-pro@yandex.ru</email><id_outlet>737</id_outlet><category><id_category>2</id_category><id_category>1</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 13:11:51 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79231437027</msisdn><password>sharai557</password></params></request> 
+2012-03-03 13:11:51 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 13:11:56 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79231437027</msisdn><password>260391</password></params></request> 
+2012-03-03 13:11:56 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 13:12:14 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79231437027</msisdn><password>slawizkema</password></params></request> 
+2012-03-03 13:12:14 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 13:12:32 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password/></params></request> 
+2012-03-03 13:12:32 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 13:12:47 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password/></params></request> 
+2012-03-03 13:12:47 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 13:12:57 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password/></params></request> 
+2012-03-03 13:12:57 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 13:13:01 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-03 13:13:01 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 13:13:12 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password/></params></request> 
+2012-03-03 13:13:12 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 13:13:27 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79231437027</msisdn><password>sharai557</password></params></request> 
+2012-03-03 13:13:27 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 13:14:10 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79231437027</msisdn><password>rSjNsFDr</password></params></request> 
+2012-03-03 13:14:10 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Шараев</surname><name>Святослав</name><patronymic>Олегович</patronymic><sex>m</sex><birthday>1991-03-26</birthday><msisdn>79231437027</msisdn><email>slawizkema@ya.ru</email><id_outlet>39</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 13:15:19 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79231437027</msisdn><password>rSjNsFDr</password></params></request> 
+2012-03-03 13:15:19 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 14:30:05 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79611000038</msisdn><password>WTiRblzb</password></params></request> 
+2012-03-03 14:30:05 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Трущенко</surname><name>Максим</name><patronymic>Александрович</patronymic><sex>m</sex><birthday>1985-12-28</birthday><msisdn>79611000038</msisdn><email>trusha-121@yandex.ru</email><id_outlet>458</id_outlet><category><id_category>1</id_category><id_category>2</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 14:30:09 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79611000038</msisdn><password>WTiRblzb</password></params></request> 
+2012-03-03 14:30:09 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 14:30:32 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79611000038</msisdn><password>WTiRblzb</password></params></request> 
+2012-03-03 14:30:32 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 14:30:36 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79611000038</msisdn><password>WTiRblzb</password></params></request> 
+2012-03-03 14:30:36 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 15:31:44 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-03 15:31:44 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 15:32:37 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79246566523</msisdn><password>yWpBYaQk</password></params></request> 
+2012-03-03 15:32:37 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Колесников</surname><name>Андрей</name><patronymic>Олегович</patronymic><sex>m</sex><birthday>1988-07-20</birthday><msisdn>79246566523</msisdn><email>qwin11550@mail.ru</email><id_outlet>683</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>5</id_category><id_category>4</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 15:33:21 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79246566523</msisdn><password>yWpBYaQk</password></params></request> 
+2012-03-03 15:33:21 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 15:33:34 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79246566523</msisdn><password>yWpBYaQk</password></params></request> 
+2012-03-03 15:33:34 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 16:31:38 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79108811948</msisdn><password>ogsarARo</password></params></request> 
+2012-03-03 16:31:38 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Петров</surname><name>Даниил</name><patronymic>Геннадьевич</patronymic><sex>m</sex><birthday>1991-10-04</birthday><msisdn>79108811948</msisdn><email>smi-petrov@ya.ru</email><id_outlet>163</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 16:31:42 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79108811948</msisdn><password>ogsarARo</password></params></request> 
+2012-03-03 16:31:42 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 16:32:29 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79108811948</msisdn><password>ogsarARo</password></params></request> 
+2012-03-03 16:32:29 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 16:32:39 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79108811948</msisdn><password>ogsarARo</password></params></request> 
+2012-03-03 16:32:39 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 18:13:33 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Михайлов</surname><name>Серней </name><patronymic>Лазаревич</patronymic><birthday>1988-03-04</birthday><sex>m</sex><msisdn>79644039569</msisdn><email>lazarevich88@mail.ru</email><id_outlet>681</id_outlet><category/></params></request> 
+2012-03-03 18:13:33 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result><fields><category>1</category>
+</fields></response> 
+2012-03-03 18:14:14 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Михайлов</surname><name>Серней </name><patronymic>Лазаревич</patronymic><birthday>1988-03-04</birthday><sex>m</sex><msisdn>79644039569</msisdn><email>lazarevich88@mail.ru</email><id_outlet>681</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></params></request> 
+2012-03-03 18:14:14 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-03 18:14:28 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Михайлов</surname><name>Серней </name><patronymic>Лазаревич</patronymic><birthday>1988-03-04</birthday><sex>m</sex><msisdn>79644039569</msisdn><email>lazarevich88@mail.ru</email><id_outlet>681</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></params></request> 
+2012-03-03 18:14:28 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 19:01:18 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79644039569</msisdn><password>MXNXuLb</password></params></request> 
+2012-03-03 19:01:18 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 19:02:25 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79644039569</msisdn><password>MXNVXuLb</password></params></request> 
+2012-03-03 19:02:25 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>4</result></response> 
+2012-03-03 19:36:21 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79611000038</msisdn><password>ЦЕшКидяи</password></params></request> 
+2012-03-03 19:36:21 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 19:36:48 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79611000038</msisdn><password>WTiRblzb</password></params></request> 
+2012-03-03 19:36:48 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Трущенко</surname><name>Максим</name><patronymic>Александрович</patronymic><sex>m</sex><birthday>1985-12-28</birthday><msisdn>79611000038</msisdn><email>trusha-121@yandex.ru</email><id_outlet>458</id_outlet><category><id_category>1</id_category><id_category>2</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 19:37:10 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>reg_sale</action><params><msisdn>79611000038</msisdn><password>WTiRblzb</password><id_category></id_category><id_model></id_model><dt_sale>1970-01-01</dt_sale><price>0</price><file><name/><data></data></file></params></request> 
+2012-03-03 19:37:10 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>5</result></response> 
+2012-03-03 19:37:24 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79611000038</msisdn><password>WTiRblzb</password></params></request> 
+2012-03-03 19:37:24 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 19:37:25 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79611000038</msisdn><password>WTiRblzb</password></params></request> 
+2012-03-03 19:37:25 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 19:37:40 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79611000038</msisdn><password>WTiRblzb</password></params></request> 
+2012-03-03 19:37:40 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 19:37:55 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79611000038</msisdn><password>WTiRblzb</password></params></request> 
+2012-03-03 19:37:55 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 19:38:18 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79270791532</msisdn><password>TYSMHWrM</password></params></request> 
+2012-03-03 19:38:18 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Чирков</surname><name>Павел</name><patronymic>Александрович</patronymic><sex>m</sex><birthday>1986-04-19</birthday><msisdn>79270791532</msisdn><email>pavel.chirkov.86@mail.ru</email><id_outlet>269</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 19:38:45 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79270791532</msisdn><password>TYSMHWrM</password></params></request> 
+2012-03-03 19:38:45 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 19:54:43 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79061773067</msisdn><password>McfHsVYC</password></params></request> 
+2012-03-03 19:54:43 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Акопов</surname><name>Андрей</name><patronymic>Владимирович</patronymic><sex>m</sex><birthday>1984-06-26</birthday><msisdn>79061773067</msisdn><email>andreyakopov84@mail.ru</email><id_outlet>269</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 19:55:04 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79061773067</msisdn><password>McfHsVYC</password></params></request> 
+2012-03-03 19:55:04 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 19:58:04 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password/></params></request> 
+2012-03-03 19:58:04 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 19:58:53 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79081973989</msisdn><password>iskevgEp </password></params></request> 
+2012-03-03 19:58:53 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Толпинский</surname><name>Владимир</name><patronymic>Викторович</patronymic><sex>m</sex><birthday>1987-06-18</birthday><msisdn>79081973989</msisdn><email>ob19871@rambler.ru</email><id_outlet>373</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 19:59:58 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79081973989</msisdn><password>iskevgEp </password></params></request> 
+2012-03-03 19:59:58 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 21:37:52 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_email_activate</action><params><ukey>pKCuJYtWkBSAWrVrIaMcKVewtQUPYfDrlfJxBLlhQprNI</ukey></params></request> 
+2012-03-03 21:37:52 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>2</result></response> 
+2012-03-03 21:38:07 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79107702003</msisdn><password>KwctOgpg</password></params></request> 
+2012-03-03 21:38:07 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Савельев</surname><name>Евгений</name><patronymic>Константинович</patronymic><sex>m</sex><birthday>1986-02-10</birthday><msisdn>79107702003</msisdn><email>domovoi-pro@yandex.ru</email><id_outlet>737</id_outlet><category><id_category>2</id_category><id_category>1</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 21:38:43 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79107702003</msisdn><password>KwctOgpg</password></params></request> 
+2012-03-03 21:38:43 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 21:43:40 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_reg</action><params><surname>Панченко</surname><name>Виктор</name><patronymic>Владимирович</patronymic><birthday>1982-06-11</birthday><sex>m</sex><msisdn>79054877585</msisdn><email>panchenko07@rambler.ru</email><id_outlet>374</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></params></request> 
+2012-03-03 21:43:40 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-03 21:44:26 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-03 21:44:26 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 21:44:27 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-03 21:44:27 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 21:44:32 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-03 21:44:32 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 21:45:20 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79054877585</msisdn><password>uFecFbpE</password></params></request> 
+2012-03-03 21:45:21 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>4</result></response> 
+2012-03-03 21:46:40 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password>uFecFbpE</password></params></request> 
+2012-03-03 21:46:40 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 21:46:46 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-03 21:46:46 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 21:49:06 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79054877585</msisdn><password>uFecFbpE</password></params></request> 
+2012-03-03 21:49:06 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>4</result></response> 
+2012-03-03 21:50:12 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79054877585</msisdn><password>ufecFbpE</password></params></request> 
+2012-03-03 21:50:12 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>3</result></response> 
+2012-03-03 21:50:37 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79054877585</msisdn><password>uFecFbpE</password></params></request> 
+2012-03-03 21:50:37 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>4</result></response> 
+2012-03-03 21:51:20 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_email_activate</action><params><ukey>tCnnHbCnbTZDsZvzCwpfqrYahGpkyRoYAmaIBcjaelxjE</ukey></params></request> 
+2012-03-03 21:51:20 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result></response> 
+2012-03-03 21:52:01 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79054877585</msisdn><password>uFecFbpE</password></params></request> 
+2012-03-03 21:52:01 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Панченко</surname><name>Виктор</name><patronymic>Владимирович</patronymic><sex>m</sex><birthday>1982-06-11</birthday><msisdn>79054877585</msisdn><email>panchenko07@rambler.ru</email><id_outlet>374</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 21:52:46 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79054877585</msisdn><password>uFecFbpE</password></params></request> 
+2012-03-03 21:52:46 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 21:53:14 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79054877585</msisdn><password>uFecFbpE</password></params></request> 
+2012-03-03 21:53:14 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 22:02:28 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79881783239</msisdn><password>PkJROmmA</password></params></request> 
+2012-03-03 22:02:28 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Захаров</surname><name>Евгений</name><patronymic>ВЛАДИМИРОВИЧ</patronymic><sex>m</sex><birthday>1987-02-08</birthday><msisdn>79881783239</msisdn><email>3axxxapoff@mail.ru</email><id_outlet>269</id_outlet><category><id_category>2</id_category><id_category>3</id_category><id_category>5</id_category><id_category>6</id_category><id_category>1</id_category><id_category>4</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 22:02:36 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79881783239</msisdn><password>PkJROmmA</password></params></request> 
+2012-03-03 22:02:36 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 22:09:33 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79274693300</msisdn><password>fsPGXKlR</password></params></request> 
+2012-03-03 22:09:33 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Филиппович</surname><name>Олег</name><patronymic>Игоревич</patronymic><sex>m</sex><birthday>1985-04-26</birthday><msisdn>79274693300</msisdn><email>kent-1232@ya.ru</email><id_outlet>103</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>5</id_category><id_category>3</id_category><id_category>4</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 22:22:05 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79274693300</msisdn><password>fsPGXKlR</password></params></request> 
+2012-03-03 22:22:05 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Филиппович</surname><name>Олег</name><patronymic>Игоревич</patronymic><sex>m</sex><birthday>1985-04-26</birthday><msisdn>79274693300</msisdn><email>kent-1232@ya.ru</email><id_outlet>103</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>5</id_category><id_category>3</id_category><id_category>4</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 22:27:17 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79200544718</msisdn><password>MNzPrKTY</password></params></request> 
+2012-03-03 22:27:17 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Дятлов</surname><name>Александр</name><patronymic>Викторович</patronymic><sex>m</sex><birthday>1981-02-04</birthday><msisdn>79200544718</msisdn><email>qwerytu1981@gmail.com</email><id_outlet>163</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 22:28:16 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79200544718</msisdn><password>MNzPrKTY</password></params></request> 
+2012-03-03 22:28:16 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 22:29:16 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79200544718</msisdn><password>MNzPrKTY</password></params></request> 
+2012-03-03 22:29:16 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
+2012-03-03 22:53:04 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn/><password></password></params></request> 
+2012-03-03 22:53:04 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>1</result></response> 
+2012-03-03 22:53:22 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>user_auth</action><params><msisdn>79061773067</msisdn><password>McfHsVYC</password></params></request> 
+2012-03-03 22:53:22 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><user_data><surname>Акопов</surname><name>Андрей</name><patronymic>Владимирович</patronymic><sex>m</sex><birthday>1984-06-26</birthday><msisdn>79061773067</msisdn><email>andreyakopov84@mail.ru</email><id_outlet>269</id_outlet><category><id_category>1</id_category><id_category>2</id_category><id_category>3</id_category><id_category>4</id_category><id_category>5</id_category><id_category>6</id_category></category></user_data><active_points>0</active_points><points>0</points></response> 
+2012-03-03 22:53:30 - DEBUG --> Request: <?xml version="1.0" encoding="UTF-8"?>
+<request><action>stat_sale</action><params><msisdn>79061773067</msisdn><password>McfHsVYC</password></params></request> 
+2012-03-03 22:53:30 - DEBUG --> Response: <?xml version="1.0" encoding="utf-8" ?><response><result>0</result><sale_history></sale_history></response> 
